@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <form action="https://www.reddit.com/search">
+      <label for="search">Search Reddit:</label>
+      <input type="text" name="q" id="search" />
+      <input type="submit" value="Search" />
+    </form>
+
+    <form action="https://www.google.com/search">
+      <label for="search">Search Google:</label>
+      <input type="text" name="q" id="search" />
+      <input type="submit" value="Search" />
+    </form>
+
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" checked />
+      <label for="agree">I agree to the terms of service</label>
+      <button>Submit</button>
+    </form>
+
+    <form>
+      <p>
+        <label for="red">Red</label>
+        <input type="radio" name="color" id="red" value="red" required/>
+
+        <label for="green">Green</label>
+        <input type="radio" name="color" id="green" value="green" />
+
+        <label for="blue">Blue</label>
+        <input type="radio" name="color" id="blue" value="blue" />
+      </p>
+      <button>submit</button>
+    </form>
+
+    <form>
+      <label for="meal">What's your favorite meal?</label>
+      <select name="meal" id="meal" required>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+      </select>
+      <button>Submit</button>
+    </form>
+
+    <form>
+      <label for="cheese">Amount of Cheese:</label>
+      <input
+        type="range"
+        name="cheese"
+        id="cheese"
+        min="0"
+        max="10"
+        step="1"
+        value="9"
+        name="cheeselevel"
+      />
+      <button>Submit</button>
+    </form>
+
+    <form>
+      <label for="color">Color: </label>
+      <input type="color" name="color" id="color" />
+      <label for="text">Text:</label>
+      <textarea name="text" id="text" cols="30" rows="10" minlength="5" maxlength="20"required></textarea>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
