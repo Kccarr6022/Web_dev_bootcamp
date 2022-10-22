@@ -35,7 +35,7 @@ app.get("/api/products/:productID", (req, res) => {
 app.get("/api/v1/query", (req, res) => {
   console.log(req.query);
   const { search, limit } = req.query;
-  let sortedProducts = [...products];
+  let sortedProducts = [...patterns];
 
   if (search) {
     sortedProducts = sortedProducts.filter((product) => {
