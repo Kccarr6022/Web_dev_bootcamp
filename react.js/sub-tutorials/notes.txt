@@ -1,0 +1,12 @@
+Declarative
+- What should be done?
+
+"Just tell me what to do, and i'll worry
+ about how to get it done"
+
+
+ Imperative
+ - How should it be done?
+
+ "Describe to me every step on how to do something,
+ and I'll do it"
