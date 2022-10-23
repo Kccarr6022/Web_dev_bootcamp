@@ -15,7 +15,7 @@ const navbar = (
       </li>
     </ul>
   </nav>
-);
+); w
 
 const page = (
   <div>
