@@ -113,19 +113,26 @@ function Header() {
         </header>
     )
 }
+
+ReactDOM.render(Header(), document.getElementById("root"));
 ```
 
-The code is incorrect because it contains a header tag which was already
-used inside the index.html. This will cause problems with the document.
-Instead the nav tag would have been sufficient for the header.
+The code is incorrect because in jsx, the functions have to be surrounded
+by tags. Instead of you passing in the function, you must surround the
+function with tags. For example, the changes in the below code are correct.
 
 Here is the correct code:
+
 ```
 function Header() {
     return (
-        <nav>
-            <img src="./react-logo.png" width="40px" />
-        </nav>
+        <header>
+            <nav>
+                <img src="./react-logo.png" width="40px" />
+            </nav>
+        </header>
     )
 }
+
+ReactDOM.(<Header />, document.getElementById("root"))
 ```
