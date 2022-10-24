@@ -1,4 +1,5 @@
 //JSX
+import React from 'react';
 
 const navbar = (
   <nav>

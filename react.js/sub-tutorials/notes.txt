@@ -10,3 +10,50 @@ Declarative
 
  "Describe to me every step on how to do something,
  and I'll do it"
+
+
+ 1. Why do we need to 'import React from "react" in our files?
+
+ We import react from 'react' in our files because it will tell
+ the compiler to look for React inside of the module 'react' located
+ in node modules.
+
+ 2. If I were to console.log(page) in index.js, what would show up?
+
+ Logging console.log(page), if page is a component then it would return
+ an empty function with no perimeters. If the page is a variable then,
+ the console would return json. The json contains everything inside.
+
+ 3. What's wrong with this code:
+ ```
+const page = (
+    <h1>Hello</h1>
+    <p>This is my website</p>
+)
+ ```
+
+ The code is wrong and will cause an error in the compiler. This is because
+ the tags must be nested within a <div></div> tag. The correct code looks
+ as following:
+
+```
+ const page = (
+    <div>
+        <h1>Hello</h1>
+        <p>This is my website</p>
+    </div>
+ )
+```
+
+4. What does it mean for something to be "declarative" instead of "imperative"?
+
+Declarative means that everything is defined for what it should look like
+in the end. Imperative means that the process of getting this is defined step
+by step usually. Mockup language is usually declarative. React is declarative.
+
+5. What does it mean for something to be "composable"?
+
+React.js is composable because components can be made which can be reused.
+Python is composable since functions can be created and the re-used. HTML is
+by default not composable because everything has to be retyped. 
+
