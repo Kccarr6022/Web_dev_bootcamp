@@ -12,17 +12,21 @@ Declarative
  and I'll do it"
 
 
+-- QUIZ 1 --
+
  1. Why do we need to 'import React from "react" in our files?
 
  We import react from 'react' in our files because it will tell
  the compiler to look for React inside of the module 'react' located
- in node modules.
+ in node modules. The JSX syntax is defined in react. So it is included.
 
  2. If I were to console.log(page) in index.js, what would show up?
 
  Logging console.log(page), if page is a component then it would return
  an empty function with no perimeters. If the page is a variable then,
  the console would return json. The json contains everything inside.
+ The json means it is a javascript object. So a javascript object is
+ returned. 
 
  3. What's wrong with this code:
  ```
@@ -50,10 +54,78 @@ const page = (
 Declarative means that everything is defined for what it should look like
 in the end. Imperative means that the process of getting this is defined step
 by step usually. Mockup language is usually declarative. React is declarative.
+Declarative is the telling the computer what to do while imperative means to
+tell the computer how to do the task.
 
 5. What does it mean for something to be "composable"?
 
 React.js is composable because components can be made which can be reused.
 Python is composable since functions can be created and the re-used. HTML is
-by default not composable because everything has to be retyped. 
+by default not composable because everything has to be retyped. Like legos.
 
+-------------------------------------------------------------------------------
+
+
+-- QUIZ 2 --
+
+1. What is a React component?
+
+A react component is a javacsript object which is translated into HTML
+code through the react library allowing javascript framework to reuse HTML
+code into seperate parts of our front end. Which can make the code easier to maintain and read.
+
+2. What's wrong with this code?
+
+```
+function myComponent() {
+    return {
+        <small>
+            I'm tiny text!
+        </small>
+    }
+}
+```
+
+The problem with this code is that in React the casing cannot be
+camel casing for components. It has to be Pascal casing which means
+that it starts with a capital letter. If the first character is not
+capital the code won't run correctly. Here is the right code:
+
+```
+const myComponent = () => {
+    return (
+        <small>
+            I'm tiny text!
+        </small>
+    );
+}
+```
+
+3. What's wrong with this code?
+
+```
+function Header() {
+    return (
+        <header>
+            <nav>
+                <img src="./react-logo.png" width="40px" />
+            </nav>
+        </header>
+    )
+}
+```
+
+The code is incorrect because it contains a header tag which was already
+used inside the index.html. This will cause problems with the document.
+Instead the nav tag would have been sufficient for the header.
+
+Here is the correct code:
+```
+function Header() {
+    return (
+        <nav>
+            <img src="./react-logo.png" width="40px" />
+        </nav>
+    )
+}
+```
