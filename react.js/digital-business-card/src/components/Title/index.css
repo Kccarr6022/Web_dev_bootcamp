@@ -56,12 +56,12 @@
   border-radius: 6px;
 }
 
-.linkedin-content{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    color:#ffffff;
-    font-size: 14px;
+.linkedin-content {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
 }
 .linkedin-icon {
   display: flex;

@@ -15,7 +15,7 @@ function Title() {
         <button className="linked-in">
           <ul className="linkedin-content">
             <li>
-              <Linkedin className="linkedin-icon" width="20px" fill="#ffff" />
+              <Linkedin className="linkedin-icon" fill="#ffff" />
             </li>
             <li>Linkedin</li>
           </ul>
