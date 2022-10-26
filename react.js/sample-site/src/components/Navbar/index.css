@@ -1,0 +1,31 @@
+.navigation-menu {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 0);
+    
+}
+
+.navigation-menu img{
+    width: 75px;
+}
+
+.navigation-items {
+    display: flex;
+    list-style: none;
+    margin-right: auto 0 auto 2rem;
+}
+
+.navigation-items li{
+    padding: 10px;
+    margin: auto 1rem auto 1rem;
+}
+
+.navigation-items li a{
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+}
+
+.title {
+    margin-left: 2rem;
+    margin-right: auto;
+}

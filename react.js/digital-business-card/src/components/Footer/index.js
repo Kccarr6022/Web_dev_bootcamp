@@ -7,7 +7,7 @@ import "./index.css";
 
 const Footer = () => {
   return (
-    <div id="footer">
+    <footer>
       <ul className="links">
         <li>
           <Twitter fill="#918E9B" width="40px" />
@@ -22,7 +22,7 @@ const Footer = () => {
           <Github fill="#918E9B" width="40px" />
         </li>
       </ul>
-    </div>
+    </footer>
   );
 };
 
