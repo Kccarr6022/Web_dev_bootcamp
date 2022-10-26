@@ -1,5 +1,6 @@
 import React from "react";
 import Portrait from "./../../images/portrait.png";
+import { ReactComponent as Linkedin } from "./svg/linkedin.svg";
 import "./index.css";
 
 function Title() {
@@ -11,7 +12,14 @@ function Title() {
       <p className="site">kadencarr.website</p>
       <ul className="buttons">
         <button className="email">Email</button>
-        <button className="linked-in">Linked In</button>
+        <button className="linked-in">
+          <ul className="linkedin-content">
+            <li>
+              <Linkedin className="linkedin-icon" width="20px" fill="#ffff" />
+            </li>
+            <li>Linkedin</li>
+          </ul>
+        </button>
       </ul>
     </div>
   );

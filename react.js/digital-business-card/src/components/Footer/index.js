@@ -10,16 +10,16 @@ const Footer = () => {
     <div id="footer">
       <ul className="links">
         <li>
-          <Twitter fill="#918E9B" stroke="#918E9B" width="40px" />
+          <Twitter fill="#918E9B" width="40px" />
         </li>
         <li>
-          <Facebook fill="#918E9B" stroke="#918E9B" width="80px" />
+          <Facebook fill="#918E9B" width="80px" />
         </li>
         <li>
-          <Instagram fill="#918E9B" stroke="#918E9B" width="40px" />
+          <Instagram fill="#918E9B" width="40px" />
         </li>
         <li>
-          <Github fill="#918E9B" stroke="#918E9B" width="80px" />
+          <Github fill="#918E9B" width="40px" />
         </li>
       </ul>
     </div>
