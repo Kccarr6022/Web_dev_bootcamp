@@ -1,0 +1,15 @@
+#footer {
+  background-color: #161619;
+  height: 8vh;
+}
+
+.links {
+  padding-top: 1rem;
+  color: #ffff;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  margin: 0 auto 0 auto;
+  justify-content: center;
+  align-items: center;
+}
