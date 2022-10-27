@@ -4,10 +4,10 @@ import "./index.css";
 
 const Hero = () => {
   return (
-    <div className="hero-content">
+    <div className="hero">
       <img className="hero-graphic" src={heroimage}></img>
-      <h1>Online Experiences</h1>
-      <p>
+      <h1 className="hero-title">Online Experiences</h1>
+      <p className="hero-content">
         Join unique interactive activities led by one-of-a-kind hosts-all
         without leaving home.
       </p>

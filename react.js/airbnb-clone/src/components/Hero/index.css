@@ -1,8 +1,27 @@
-.hero-content {
-  margin-top: 4rem;
+.hero {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3.3rem;
 }
 
-.hero-graphics {
-    padding: 0 4rem;
-  display: flex;
+.hero-graphic {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto 2rem auto;
+}
+
+.hero-title {
+  padding-left: 3rem;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.hero-content {
+  padding-left: 3rem;
+  font-size: 16px;
+  line-height: 17.6px;
+  font-weight: 300;
+  margin-right: 35%;
 }
