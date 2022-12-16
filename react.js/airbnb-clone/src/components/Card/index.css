@@ -1,14 +1,43 @@
 .card {
-  width: 200px;
-  text-align: center;
+  position: relative;
+  width: 176px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
 }
 
 .card-image {
-  width: 176px;
+  width: 100%;
   height: 235px;
   border-radius: 9px;
 }
-.text {
-  font-size: 12px;
-  font-weight: 700;
+
+.card-stats {
+  display: flex;
+  text-align: left;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.card-header {
+  margin: 0;
+  font-weight: 300;
+}
+
+.card-text {
+  margin-top: 0;
+  text-align: left;
+}
+
+.badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }

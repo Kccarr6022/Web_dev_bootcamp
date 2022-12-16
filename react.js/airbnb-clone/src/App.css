@@ -1,0 +1,10 @@
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  gap: 20px;
+}
+
+section {
+  padding: 20px;
+}
