@@ -4,10 +4,8 @@ import Hero from './components/Hero'
 import Card from './components/Card'
 import data from './data'
 
-console.log(data)
-
-const cards = data.map((item) => {
-  return <Card card={item} />
+const cards = data.map(item => {
+  return <Card {...item} />
 })
 
 function App() {

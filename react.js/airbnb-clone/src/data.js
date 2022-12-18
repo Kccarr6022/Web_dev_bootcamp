@@ -1,7 +1,7 @@
 export default [
   {
+    id: 1,
     spots: 142,
-    id: 2,
     image: 'images/image1.png',
     title: 'text',
     rating: '5.0',
@@ -11,7 +11,7 @@ export default [
     spots: 0,
   },
   {
-    id: 1,
+    id: 2,
     image: 'images/image1.png',
     title: 'text',
     rating: '5.0',

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../images/airbnb-emblem.png";
+import Logo from "../../images/logo512.png";
 import "./index.css";
 
 const Navbar = () => {

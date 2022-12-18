@@ -1,0 +1,23 @@
+.Joke {
+  background-color: aqua;
+  display: inline-block;
+  margin: 50px 50px 0px 50px;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 4px;
+
+  .joke-setup {
+    font-size: medium;
+    padding: 30px;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+
+  .joke-punchline {
+    font-size: medium;
+    font-weight: 300;
+    word-wrap: break-word;
+  }
+}
