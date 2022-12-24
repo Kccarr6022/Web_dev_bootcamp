@@ -1,0 +1,22 @@
+nav {
+    background-color: #F55A5A;
+    color: white;
+    height: 55px;
+    font-size: 14.46px;
+    font-family: 'inter';
+    font-weight: 500;
+
+    
+    .logo {
+      width: 24px;
+    }
+    
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,59 @@
+.blog {
+  margin: 10vh 2rem;
+  font-family: 'Inter';
+  .picture {
+    display: inline-block;
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+  }
+  .post {
+    color: #2b283a;
+    display: inline-block;
+    margin: auto 2rem;
+    overflow: hidden;
+    width: 50%;
+    .location {
+      gap: 1rem;
+      .location-mark {
+        letter-spacing: 0.17em;
+        display: inline;
+        width: 10px;
+      }
+      .location-text {
+        display: inline;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.24px;
+        line-height: 12px;
+        letter-spacing: 0.17em;
+        color: #2b283a;
+      }
+      .location-link {
+        margin-left: 1rem;
+        font-size: 10px;
+      }
+    }
+
+    .title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 30px;
+    }
+
+    .date {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 10.24px;
+      line-height: 12px;
+    }
+
+    .content {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10.24px;
+      line-height: 150%;
+    }
+  }
+}
