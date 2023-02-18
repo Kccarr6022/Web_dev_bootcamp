@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: #ffffff;
+  padding: 20px;
+  overflow: hidden;
+
+  img {
+    height: 50%;
+    margin-right: 6px;
+    transform: rotateY(180deg);
+  }
+  .title {
+    display: inline-block;
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .project {
+    display: inline-block;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-align: right;
+    margin: auto 2rem auto auto;
+  }
+}
